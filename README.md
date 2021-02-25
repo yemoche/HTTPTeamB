@@ -11,17 +11,17 @@ HTTP as a Stateless protocol
 
 As a stateless protocol, once a request is sent and received on the server, it is discarded and forgotten on the server i.e the Memory of previous request is not saved. 
 HTTP usually consists of two Types of Headers:  
-+Request Header  
-+Response Header  
++ Request Header  
++ Response Header  
 
 The Contents of a header include accept, authorise, content lenght and payload etc.
 
 HTTP functions as a request–response protocol in the client–server computing model. A web browser, for example, may be the client and an application running on a computer hosting a website may be the server. The client submits an HTTP request message to the server. The server, which provides resources such as HTML files and other content, or performs other functions on behalf of the client, returns a response message to the client. The response contains completion status information about the request and may also contain requested content in its message body.
 
 A web browser is an example of a *user agent (UA)*. Other types of user agent include 
-+The indexing software used by search providers (web crawlers),  
-+Voice browsers,  
-+Mobile apps, and other software that accesses, consumes, or displays web content.
++ The indexing software used by search providers (web crawlers),  
++ Voice browsers,  
++ Mobile apps, and other software that accesses, consumes, or displays web content.
 
 HTTP uses a server-client model. A client, for example, may be a home computer, laptop, or mobile device. The HTTP server is typically a web host running web server software, such as Apache or IIS. When you access a website, your browser sends a request to the corresponding web server and it responds with an HTTP status code. If the URL is valid and the connection is granted, the server will send your browser the webpage and related files.
 
